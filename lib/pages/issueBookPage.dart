@@ -56,11 +56,9 @@ class _DummyIssueBookState extends State<DummyIssueBook> {
                   textColor: Colors.white,
                   fontSize: 16.0);
 
-              
               return HomePage();
             }
             if (snapshot.hasData) {
-              
               return IssueBookPage(
                 barcode: snapshot.data,
               );
